@@ -1,0 +1,8 @@
+2021-03-26 02:52:50.005623: I external/tf_serving/tensorflow_serving/model_servers/server.cc:88] Building single TensorFlow model file config:  model_name: fashion_model model_base_path: /models/fashion_model
+2021-03-26 02:52:50.005937: I external/tf_serving/tensorflow_serving/model_servers/server_core.cc:464] Adding/updating models.
+2021-03-26 02:52:50.006014: I external/tf_serving/tensorflow_serving/model_servers/server_core.cc:587]  (Re-)adding model: fashion_model
+2021-03-26 02:52:50.106429: I external/tf_serving/tensorflow_serving/core/basic_manager.cc:740] Successfully reserved resources to load servable {name: fashion_model version: 1}
+2021-03-26 02:52:50.106491: I external/tf_serving/tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: fashion_model version: 1}
+2021-03-26 02:52:50.106516: I external/tf_serving/tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: fashion_model version: 1}
+2021-03-26 02:52:50.106585: E external/tf_serving/tensorflow_serving/util/retrier.cc:37] Loading servable: {name: fashion_model version: 1} failed: Not found: Specified file path does not appear to contain a SavedModel bundle (should have a file called `saved_model.pb`)
+Specified file path: /models/fashion_model/1
